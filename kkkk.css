@@ -1,0 +1,76 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+ 
+  
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header .logo {
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Tips section */
+#tips ul {
+  padding-left: 20px;
+}
+
+#tips ul li {
+  margin-bottom: 10px;
+}
+
+/* About section */
+.about {
+  background-color: #f9f9f9;
+}
+
+/* Contact section */
+.contact {
+  background-color: #ddd;
+}

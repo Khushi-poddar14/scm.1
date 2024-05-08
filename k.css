@@ -1,0 +1,64 @@
+/* Basic CSS styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(202, 248, 249) ;
+  }
+  
+  header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Acq2mCIP5m5jZW4GlLZDtlQe8Po6rgFcFw&usqp=CAU');
+    background-size: cover;
+    color: #340303;
+  }
+  
+  .blog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .blog-post {
+    width: 30%;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .blog-post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #351919;
+    color: #180b0b;
+  }
+  
